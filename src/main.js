@@ -83,171 +83,171 @@ viewerboard({
     basemapToggle: false,
   },
 
-  mbStyle: 'test',
+  // mbStyle: 'test',
   // mbStyle: 'mapbox://styles/mapbox/streets-v11',
 
   // mbStyle: 'https://www.arcgis.com/sharing/rest/content/items/f455d84d5aab4d64b1191e0d2eed42b1/resources/styles/root.json?f=pjson',
 
-  // mbStyle: {
-  //   version: 8,
-  //   sources: {
-  //     esri: {
-  //       type: "vector",
-  //         tiles: [
-  //           // 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PVL_Original/VectorTileServer/tile/{z}/{y}/{x}.pbf',
-  //           'https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf',
-  //         ],
-  //         maxzoom: 22,
-  //     },
-  //     // streetsVectorSource: {
-  //     //   type: "vector",
-  //     //   tiles: [
-  //     //     'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PVL_Original/VectorTileServer/tile/{z}/{y}/{x}.pbf',
-  //     //   ],
-  //     //   maxzoom: 22,
-  //     // },
-  //     pwd: {
-  //       tiles: [
-  //         '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap/MapServer/tile/{z}/{y}/{x}',
-  //       ],
-  //       type: 'raster',
-  //       tileSize: 256,
-  //     },
-  //   },
-  //   layers: [
-  //     // {
-  //     //   id: 'pwd',
-  //     //   type: 'raster',
-  //     //   source: 'pwd',
-  //     // },
-  //     {
-  //       "id": "land (small scale)/fill",
-  //       "type": "fill",
-  //       source: 'esri',
-  //       "source-layer": "land (small scale)",
-  //       "maxzoom": 9,
-  //       "layout": {
-  //
-  //       },
-  //       "paint": {
-  //         "fill-color": "#f7f6d5"
-  //       }
-  //     },
-  //     {
-  //       "id": "transportation area/living street",
-  //       "type": "fill",
-  //       "source": "esri",
-  //       "source-layer": "transportation area",
-  //       "filter": [
-  //         "==",
-  //         "_symbol",
-  //         0
-  //       ],
-  //       "minzoom": 13,
-  //       "layout": {
-  //
-  //       },
-  //       "paint": {
-  //         "fill-color": "#f7f6d5"
-  //       }
-  //     },
-  //     // {
-  //     //   id: 'OpenType0',
-  //     //   type: 'line',
-  //     //   source: 'openStreetMapVectorSource',
-  //     //   'source-layer': 'Street_Centerline_PVL',
-  //     //   'filter': [
-  //     //     '==',
-  //     //     '_symbol',
-  //     //     0
-  //     //   ],
-  //     //   layout: {
-  //     //     'line-cap': 'butt',
-  //     //     'line-join': 'miter'
-  //     //   },
-  //     //   paint: {
-  //     //     'line-color': '#A3FF73',
-  //     //     'line-width': 1
-  //     //   }
-  //     // },
-  //     // {
-  //     //   id: 'Type0',
-  //     //   type: 'line',
-  //     //   source: 'streetsVectorSource',
-  //     //   'source-layer': 'Street_Centerline_PVL',
-  //     //   'filter': [
-  //     //     '==',
-  //     //     '_symbol',
-  //     //     0
-  //     //   ],
-  //     //   layout: {
-  //     //     'line-cap': 'butt',
-  //     //     'line-join': 'miter'
-  //     //   },
-  //     //   paint: {
-  //     //     'line-color': '#A3FF73',
-  //     //     'line-width': 1
-  //     //   }
-  //     // },
-  //     // {
-  //     //   id: 'Type1',
-  //     //   type: 'line',
-  //     //   source: 'streetsVectorSource',
-  //     //   'source-layer': 'Street_Centerline_PVL',
-  //     //   'filter': [
-  //     //     '==',
-  //     //     '_symbol',
-  //     //     1
-  //     //   ],
-  //     //   layout: {
-  //     //     'line-cap': 'butt',
-  //     //     'line-join': 'miter'
-  //     //   },
-  //     //   paint: {
-  //     //     'line-color': '#FFFF00',
-  //     //     'line-width': 1
-  //     //   }
-  //     // },
-  //     // {
-  //     //   id: 'Type2',
-  //     //   type: 'line',
-  //     //   source: 'streetsVectorSource',
-  //     //   'source-layer': 'Street_Centerline_PVL',
-  //     //   'filter': [
-  //     //     '==',
-  //     //     '_symbol',
-  //     //     2
-  //     //   ],
-  //     //   layout: {
-  //     //     'line-cap': 'butt',
-  //     //     'line-join': 'miter'
-  //     //   },
-  //     //   paint: {
-  //     //     'line-color': '#FCB3B4',
-  //     //     'line-width': 1
-  //     //   }
-  //     // },
-  //     // {
-  //     //   id: 'Type3',
-  //     //   type: 'line',
-  //     //   source: 'streetsVectorSource',
-  //     //   'source-layer': 'Street_Centerline_PVL',
-  //     //   'filter': [
-  //     //     '==',
-  //     //     '_symbol',
-  //     //     3
-  //     //   ],
-  //     //   layout: {
-  //     //     'line-cap': 'butt',
-  //     //     'line-join': 'miter'
-  //     //   },
-  //     //   paint: {
-  //     //     'line-color': '#C5E3FC',
-  //     //     'line-width': 1
-  //     //   }
-  //     // },
-  //   ],
-  // },
+  mbStyle: {
+    version: 8,
+    sources: {
+      // esri: {
+      //   type: "vector",
+      //     tiles: [
+      //       // 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PVL_Original/VectorTileServer/tile/{z}/{y}/{x}.pbf',
+      //       'https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer/tile/{z}/{y}/{x}.pbf',
+      //     ],
+      //     maxzoom: 22,
+      // },
+      streetsVectorSource: {
+        type: "vector",
+        tiles: [
+          'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/PVL_Original/VectorTileServer/tile/{z}/{y}/{x}.pbf',
+        ],
+        maxzoom: 22,
+      },
+      pwd: {
+        tiles: [
+          '//tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services/CityBasemap/MapServer/tile/{z}/{y}/{x}',
+        ],
+        type: 'raster',
+        tileSize: 256,
+      },
+    },
+    layers: [
+      {
+        id: 'pwd',
+        type: 'raster',
+        source: 'pwd',
+      },
+      // {
+      //   "id": "land (small scale)/fill",
+      //   "type": "fill",
+      //   source: 'esri',
+      //   "source-layer": "land (small scale)",
+      //   "maxzoom": 9,
+      //   "layout": {
+      //
+      //   },
+      //   "paint": {
+      //     "fill-color": "#f7f6d5"
+      //   }
+      // },
+      // {
+      //   "id": "transportation area/living street",
+      //   "type": "fill",
+      //   "source": "esri",
+      //   "source-layer": "transportation area",
+      //   "filter": [
+      //     "==",
+      //     "_symbol",
+      //     0
+      //   ],
+      //   "minzoom": 13,
+      //   "layout": {
+      //
+      //   },
+      //   "paint": {
+      //     "fill-color": "#f7f6d5"
+      //   }
+      // },
+      // {
+      //   id: 'OpenType0',
+      //   type: 'line',
+      //   source: 'openStreetMapVectorSource',
+      //   'source-layer': 'Street_Centerline_PVL',
+      //   'filter': [
+      //     '==',
+      //     '_symbol',
+      //     0
+      //   ],
+      //   layout: {
+      //     'line-cap': 'butt',
+      //     'line-join': 'miter'
+      //   },
+      //   paint: {
+      //     'line-color': '#A3FF73',
+      //     'line-width': 1
+      //   }
+      // },
+      {
+        id: 'Type0',
+        type: 'line',
+        source: 'streetsVectorSource',
+        'source-layer': 'Street_Centerline_PVL',
+        'filter': [
+          '==',
+          '_symbol',
+          0
+        ],
+        layout: {
+          'line-cap': 'butt',
+          'line-join': 'miter'
+        },
+        paint: {
+          'line-color': '#A3FF73',
+          'line-width': 1
+        }
+      },
+      {
+        id: 'Type1',
+        type: 'line',
+        source: 'streetsVectorSource',
+        'source-layer': 'Street_Centerline_PVL',
+        'filter': [
+          '==',
+          '_symbol',
+          1
+        ],
+        layout: {
+          'line-cap': 'butt',
+          'line-join': 'miter'
+        },
+        paint: {
+          'line-color': '#FFFF00',
+          'line-width': 1
+        }
+      },
+      {
+        id: 'Type2',
+        type: 'line',
+        source: 'streetsVectorSource',
+        'source-layer': 'Street_Centerline_PVL',
+        'filter': [
+          '==',
+          '_symbol',
+          2
+        ],
+        layout: {
+          'line-cap': 'butt',
+          'line-join': 'miter'
+        },
+        paint: {
+          'line-color': '#FCB3B4',
+          'line-width': 1
+        }
+      },
+      {
+        id: 'Type3',
+        type: 'line',
+        source: 'streetsVectorSource',
+        'source-layer': 'Street_Centerline_PVL',
+        'filter': [
+          '==',
+          '_symbol',
+          3
+        ],
+        layout: {
+          'line-cap': 'butt',
+          'line-join': 'miter'
+        },
+        paint: {
+          'line-color': '#C5E3FC',
+          'line-width': 1
+        }
+      },
+    ],
+  },
 
   // vectorTilesSources: {
   //   streetsVectorSource: {
