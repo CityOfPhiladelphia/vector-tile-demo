@@ -17,7 +17,7 @@ viewerboard({
   // customComps,
   // initialTiledOverlays: ['fullMarathon'],
   app: {
-    title: 'Vector Tile Demo',
+    title: 'Esri Hosted Vector Tile Demo',
     tagLine: '',
   },
   // baseConfig: BASE_CONFIG_URL,
